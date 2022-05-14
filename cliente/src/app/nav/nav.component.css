@@ -1,0 +1,23 @@
+ /*nav.navbar {
+   background-color: (##304046);
+}*/
+
+a{
+    font-size: 22px;
+}
+#agendaLogo{
+    color: white;
+}
+#logoutText{
+    color: white;
+    font-size: 22px;
+    display:none;
+}
+@media screen and (max-width: 991px) {
+    #logout{
+        display:none;
+    }
+    #logoutText{
+        display:block;
+    }
+}

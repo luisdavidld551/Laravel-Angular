@@ -1,0 +1,98 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 17px;
+    text-align: left;
+    border-collapse: collapse; 
+}
+th {
+    font-size: 17px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    text-align: center
+}
+
+td {
+    padding: 5px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd; color: #339;
+ }
+.oscuro .modal-content {
+    background-color: #021f2e;
+    color: white;
+}
+form{
+    font-size: 20px;
+    padding: 40px;
+    background: #ffffff8c; 
+    border: 1px solid #5BC0DE;
+    border-radius: 0.25em;
+    text-align: justify;
+}
+
+h1{
+    font-size: 2.5rem !important;
+}
+
+#btnSmall{
+    padding: 0.05rem 0.02rem;
+}
+
+#alertas{
+    /* text-align: center;
+    margin-left: 10em;*/
+    text-align: center;
+    width: 70%;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(assets/fondo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+html, body { height: 100%; }
+
+.mat-snack-bar-container {
+    margin-top: 80px !important;
+    color: white ;
+    text-align: center;
+}
+.mat-simple-snackbar {
+    justify-content: center !important;
+    font-size: 1em ;
+}
+.snackbar-error {
+    background-color: #e74c3c ;
+}
+
+.snackbar-warning {
+    background-color: #f1c40f;
+}
+
+.snackbar-info {
+    background-color: #239b56;
+}

@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>Todos los Task</h1>
+  <table class="table table-striped default">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>nombre</th>
+        <th>Descripcion</th>
+        <th>Estado</th>
+        <th>Responsable</th>
+        <!--th>Opcion</th>-->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let takss of taks">
+        <th style="text-align: center">{{takss.id}}</th>
+        <td>{{takss.nombre}}</td>
+        <td>{{takss.descripcion}}</td>
+        <td>{{takss.estado}}</td>
+        <td class="text-center">
+          <div *ngIf="(takss.user == null)"></div>
+          <div *ngIf="(takss.user != null)">{{takss.user['name']}}</div>
+        </td>
+        <!--<td class="text-center">
+          <a (click)="editTasks(takss)" class="btn btn-secondary" id="btnSmall"><i class="material-icons">edit</i></a>
+          <a (click)="deleteTasks(takss.id)" class="btn btn-danger"  id="btnSmall"><i class="material-icons">delete</i></a>
+        </td>-->
+      </tr>
+    </tbody>
+  </table>
+</div>
